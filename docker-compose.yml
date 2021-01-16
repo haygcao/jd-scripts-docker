@@ -6,7 +6,7 @@ x-logger: &logger
       max-size: "10m"
       max-file: "3"
 x-common: &common
-  image: jd-scripts:latest
+  image: hayga/jdmyself
   build:
     context: .
     dockerfile: ./Dockerfile
